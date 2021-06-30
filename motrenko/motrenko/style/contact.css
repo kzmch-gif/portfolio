@@ -1,0 +1,314 @@
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("Fonts/OpenSans-Bold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("Fonts/OpenSans-Light.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("Fonts/OpenSans-Regular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-SemiBold";
+    src: url("Fonts/OpenSans-SemiBold.ttf") format("ttf");
+    font-style: normal;
+    font-weight: 800;
+}
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+header{
+    width: 1400px;
+    height: 185px;
+    background-color: #092076 !important;
+}
+
+.vm{
+    color: white;
+    font-size: 60px;
+    margin-left: 15px;
+}
+.vm1{
+    color: white;
+    font-size: 60px !important;
+    margin-right: 509px !important;
+    font-weight: 500 !important;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+  
+
+}
+.menu{
+    height: 2px;
+    margin: 2px;
+    width: 24px;
+   
+    border: white 2px solid;
+    background-color: white;
+}
+/* скрываем чекбокс */
+#menu__toggle {
+    opacity: 0;
+    visibility:hidden;
+  }
+  /* стилизуем кнопку */
+  .menu__btn {
+    display: flex; /* используем flex для центрирования содержимого */
+    align-items: center;  /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 20px;
+    color: white;
+    left: 1328px;
+    width: 56px;
+    height: 130px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  /* добавляем "гамбургер" */
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  /* контейнер меню */
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+   
+    left: -100%;
+    width: 1400px;
+    height: 185px;
+    margin: 0;
+   
+    list-style: none;
+    text-align: center;
+    background-color: #E87338;
+
+  }
+  /* элементы меню */
+  .menu__item {
+    display: block;
+    font-family: 'Op';
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+
+    font-weight:100;
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 100px;
+  }
+
+  .menu__item:hover {
+    background-color: #E87338;
+  }
+
+
+  /*open or close menu*/
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+
+main{
+
+    background-image: url("../pictures/motrenko1.png");
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 100%;
+   
+height: 893px;
+width: 1400px;
+    
+  }
+  .c{
+      color: #092076;
+      font-size: 48px;
+      padding-left: 148PX;
+      padding-top: 142px;
+  }
+  #name{
+      width: 454px;
+      height: 68px;
+      background-color: #FBE3D7;
+      border: #FBE3D7 solid 1px;
+      color: #F8C9B2;
+      font-size: 20px;
+      margin-left: 148PX;
+      margin-top: 21px;
+      padding-top: 34px;
+      padding-left: 8px;
+  }
+  #phone{
+    width: 454px;
+    height: 68px;
+    background-color: #FBE3D7;
+    border: #FBE3D7 solid 1px;
+    color: #F8C9B2;
+    font-size: 20px;
+    margin-left: 148PX;
+    margin-top: 21px;
+    padding-top: 34px;
+    padding-left: 8px;
+  }
+  #email{
+    width: 454px;
+    height: 68px;
+    background-color: #FBE3D7;
+    border: #FBE3D7 solid 1px;
+    color: #F8C9B2;
+    font-size: 20px;
+    margin-left: 148PX;
+    margin-top: 21px;
+    padding-top: 34px;
+    padding-left: 8px;
+  }
+  #help{
+    width: 454px;
+    height: 230px;
+    background-color: #FBE3D7;
+    border: #FBE3D7 solid 1px;
+    color: #F8C9B2;
+    font-size: 20px;
+    margin-left: 148PX;
+    margin-top: 21px;
+    padding-top: 194px;
+    padding-left: 8px;
+  }
+  .fill{
+      font-size: 22px;
+      color: #092076;
+      padding-top: 384px;
+     
+  }
+  .but{
+    border-radius: 16px;
+    border: #ED7539 2px solid;
+    background-color: #ED7539;
+    color: white;
+    font-size: 16px;
+    padding: 8px 42px;
+    margin-left: 318PX;
+    margin-top: 34px;
+  }
+  .back{
+  background-image: url(../pictures/back_1.png);
+  background-repeat: no-repeat;
+ 
+
+height: 1115px;
+width: 1400px;
+}
+.hi{
+  color: #092076;
+  font-size: 22px;
+  padding-top: 459px;
+  padding-left: 135px;
+  font-weight: 300;
+}
+.bl1{
+  color: #092076;
+  font-size: 12px;
+  
+  padding-left: 247px !important;
+ 
+}
+.text{
+  font-weight: 100 !important;
+  color: #092076;
+  font-size: 22px;
+}
+.bl{
+  padding-top: 164px;
+}
+.foot{
+  height: 496px;
+  background-color: #092076;
+  width: 1400px;
+  position: relative;
+}
+
+.foot::before {
+  content: url('../pictures/v.png');
+  position: absolute;
+  top: -64px;
+  left: 411px;
+}
+.vmf{
+  color: #F46F0F;
+  font-size: 60px;
+  padding-top: 130px;
+}
+.boost{
+  color: white;
+  font-size: 34px;
+}
+.colonka{
+  padding-left: 128px !important;
+  padding-top: 11px;
+}
+.get{
+  color:#F46F0F;
+  font-size: 24px;
+  padding-top: 105px;
+}
+.mail{
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 40px;
+}
+.phone{
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding-top: 20px;
+}
+
+.colonka2{
+  padding-left: 164px !important;
+  padding-top: 11px;
+}
+.cont{
+  padding-top: 50px;
+}

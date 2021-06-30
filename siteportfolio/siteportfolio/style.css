@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Kharkiv Tone Regular";
+    src: url("font/Kharkiv Tone Regular.ttf") format("ttf");
+    font-style: normal;
+    font-weight: thin;
+}
+.header-s{
+    color: white;
+    font-family: "Kharkiv Tone Regular";
+    font-size: 36px;
+    margin: 0;
+    float: left;
+    padding-top: 28px;
+    padding-left: 142px;
+}
+
+.desktop{
+    float: right;
+    display: flex;
+}
+.menurow{
+    color: white;
+    font-family: "Kharkiv Tone Regular";
+    font-size: 20px;
+    margin: 0;
+    float: right;
+    display: flex;
+margin-top: 7px;
+   
+}
+.container{
+    position: relative;
+    color: white;
+}
+.m{
+    text-decoration: none;
+    color: white;
+ 
+    margin: 30px;
+}
+.mainpic{
+    height: auto;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    border: 0;
+}
+.m1{
+    margin-right: 163px;
+    margin-left: 30px;
+    padding-top: 29px;
+    color: white;
+    font-family: "Kharkiv Tone Regular";
+    font-size: 20px;
+    float: right;
+    display: flex;
+    text-decoration: none;
+}
+header{
+    height: 87px;
+    width: 100%;
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.flowerhead{
+    width: 100%;
+    margin-top: 0;
+}
+.graphdes{
+    position: absolute;
+
+    left: 145px;
+    color: black;
+    font-family: "Kharkiv Tone Regular";
+    font-size: 36px;
+top: 84px;
+}
+.idea{
+    position: absolute;
+
+    left: 146px;
+    color: black;
+    font-family: "Kharkiv Tone Regular";
+    font-size: 20px;
+top: 196px;
+}
+.boot{
+   top: 260px;
+   left: 146px;
+    color: #000000;
+    position: absolute;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    font-family: "Kharkiv Tone Regular";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    border: black 4px solid;
+    text-decoration: none;
+    width:auto;
+    margin:20px auto;
+
+}
+.skill1{
+    color: white;
+    float: left;
+    padding-left: 126px;
+    width: 30%;
+
+}
+.skills{
+    height: 435px;
+    width: 100%;
+    background-color: black;
+    margin-top: -1%;
+
+display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.present{
+    color: white;
+    position: absolute;
+    font-family: "Kharkiv Tone Regular";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+}
+.ex{
+    margin: 0;
+    padding-top: 89px;
+    font-family: "Kharkiv Tone Regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+.skill2{
+    color: white;
+
+  width: 30%;
+}
+.skill3{
+    color: white;
+
+    font-family: "Kharkiv Tone Regular";
+    width: 30%;
+    float: right;
+}
+.vetka{
+height: auto;
+width: 50%;
+background-color: white;
+margin: 0;
+float: right;
+border: 0;}
+.iam{
+    width: 50%;
+    float: left;
+    font-family: "Kharkiv Tone Regular";
+letter-spacing: 2.5px;
+    font-weight: 400;
+  padding-top: 3%;
+    line-height: 1.33;
+   
+      
+}
+.lori{
+    font-size: 26px;
+}
+.vit{
+    font-size: 30px;
+}
+.hello{
+margin-right: 140px;
+   margin-left: 140px; 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.portfolio{
+    padding-top: 89px;
+    font-family: "Kharkiv Tone Regular";
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+}
+.picportf{
+    width: 100%;
+    height: auto;
+}
+.boot1{
+   
+     color: #000000;
+     position: absolute;
+     padding-top: 16px;
+     padding-left: 7%;
+     padding-right: 7%;
+     padding-bottom: 16px;
+     font-family: "Kharkiv Tone Regular";
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 23px;
+     border: black 3px solid;
+     text-decoration: none;
+     width: auto;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ }
+ .but{
+ 
+    margin-left: 43%;
+    margin-right: 50%;
+ }
+ .context{
+     color: white;
+     font-family: "Kharkiv Tone Regular";
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 36px;
+     text-align: center;
+     padding-top: 146px;
+ }
+ .footer{
+     width: 100%;
+     height: auto;
+     background-image: url("pic/222.jpg");
+     margin-top: 139px;
+     background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+ .foto1{
+  margin-left: 50%;
+ }
+ .texte{
+    color: white;
+    font-family: "Kharkiv Tone Regular";
+  padding-top: 28%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center; 
+ }
+ .texte1{
+    color: white;
+    font-family: "Kharkiv Tone Regular";
+padding-bottom: 2%;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center; 
+ }
+ .inst{
+     width: 50px;
+     height: 50px;
+ }
+ .teleg{
+     width: 50px;
+     height: 50px;
+ }
+ .soc{
+     padding-left: 47%;
+     padding-bottom: 308px
+ }

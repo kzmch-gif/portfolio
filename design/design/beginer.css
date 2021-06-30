@@ -1,0 +1,225 @@
+body{
+    width: 100%;
+    height: auto;
+    background-image: url('pic/image1.png');
+  background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.carl{
+    padding-top: 27px;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.35);
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    padding-left: 46px;
+   
+  
+
+    margin: 0;
+    float: left;
+ 
+}
+header{
+    height: 84px;
+    width: 100%;
+    background: rgb(33,105,177);
+    background: linear-gradient(90deg, rgba(33,105,177,1) 0%, rgba(0,0,0,0.7514356084230567) 28%, rgba(0,0,0,0.75) 94%);
+}
+
+.menu{
+
+    
+    float: right;
+    display: flex;
+
+
+}
+.menurow{
+    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.35);
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    padding-left: 183px;
+    margin-top: 30px;
+    font-weight: 400;
+    float: right;
+    display: flex;
+}
+.nagivat{
+    float: right;
+    display: flex;
+}
+a{
+    padding-right: 50px;
+    color: white !important;
+    flex-direction: row;
+    padding-bottom: 35px;
+}
+.set{
+    margin-right: 17px;
+    margin-left: 29px;
+    margin-top: 9px;
+    background-image: url("pic/Vector.png");
+    background-repeat: no-repeat;
+    background-size: 35px 35px;
+}
+.exit{
+    margin-top: 7px;
+}
+.hi{
+    z-index: 1;
+}
+
+/*header*/
+
+.parentt{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.block{
+    width: 901px;
+    height: 628px;
+    background-color: #00000080;
+    margin-top: 318px;
+    margin-left: 525px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  margin: -218px 0 0 -382px;
+}
+main{
+    height: 443px !important;
+}
+.stat{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: white;
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.35);
+    line-height: 43px;
+    padding-top: 19px;
+    box-shadow: 0px 4px 32px 3px rgba(0, 0, 0, 0.25);
+    padding-left: 33px;
+    background-color:#0074e765;
+    border-radius: 20px 20px 0 0;
+    height: 80px;
+}
+.textstatic{
+    font-weight: 400;
+}
+.exitbut{
+    margin-left: 72%;
+}
+.hi{
+    font-size: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+    margin-left: 33px;
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+.this{
+    font-size: 19px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 33px;
+}
+.parag{
+    margin-right: 43px;
+}
+.bigimage{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.smallimage1{
+    margin-top: 10px;
+} 
+.smallimage2{
+    margin-top: 26px;
+}
+.exitbut {
+    margin-left: 3%;
+    background-image: url("pic/ExitButton.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+}
+button.exitbut{
+    width: 40px;
+    margin-left: 630px;
+}
+button{
+    height: 30px;
+background: #ffffff17;
+border-radius: 10px !important;
+border: transparent;
+background-color: rgba(255, 255, 255, 0.014);
+}
+.z{
+    z-index: 1;
+}
+
+
+@media (min-width: 576px){
+    .navbar-expand-sm {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: wrap;
+        flex-flow: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    }
+    .header{
+        font-size: calc(1em + 0.2vw);
+    }
+    @media (min-width:576px) {
+        .header{
+            margin-left: -185px;
+            margin-right: -364px;
+        }
+        
+    }
+    
+    @media (min-width:576px) {
+        .set {
+          margin-right: 10px;
+        }
+        
+    }
+    
+   
+@media (min-width:576px) {
+    .nav-link {
+      margin-left: -42px;
+      margin-right: 5px;
+    }
+    
+}
+    .b::before{
+        content: url("pic/Selectionshade.png");
+        position: absolute;
+        bottom: 2px;
+        left: 138px;
+    }
